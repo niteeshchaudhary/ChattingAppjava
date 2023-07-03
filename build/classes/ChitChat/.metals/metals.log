@@ -1,0 +1,87 @@
+2023.01.31 18:05:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\mypackage\ChitChat\src\ChitChat\.metals\lsp.trace.json or C:\Users\Niteesh Chaudhary\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.31 18:05:22 INFO  logging to file D:\mypackage\ChitChat\src\ChitChat\.metals\metals.log
+2023.01.31 18:05:22 INFO  Started: Metals version 0.11.10 in workspace 'D:\mypackage\ChitChat\src\ChitChat' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Niteesh%20Chaudhary/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.31 18:05:23 INFO  time: initialize in 1.49s
+2023.01.31 18:05:26 WARN  Build server is not auto-connectable.
+2023.01.31 18:05:26 WARN  no build tool detected in workspace 'D:\mypackage\ChitChat\src\ChitChat'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.31 18:05:27 WARN  no build target for: D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java
+Jan 31, 2023 6:05:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.01.31 18:05:28 WARN  Running javac-semanticdb failed for file:///D:/mypackage/ChitChat/src/ChitChat/ZeroCross.java. Output:
+semanticdb-javac: unknown flag 'Chaudhary\AppData\Local\Temp\metals-javac-semanticdb15095445299820350102\target'
+
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:24: error: cannot find symbol
+    String drv = "com.mysql.jdbc.Driver", conurl = "jdbc:mysql://localhost:3306/" + LogiN.dbnm;
+                                                                                    ^
+  symbol:   variable LogiN
+  location: class ZeroCross
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:25: error: cannot find symbol
+    String mspass = LogiN.mspass;
+                    ^
+  symbol:   variable LogiN
+  location: class ZeroCross
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:239: error: cannot find symbol
+        new MsWon().setVisible(true);
+            ^
+  symbol:   class MsWon
+  location: class ZeroCross
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:253: error: cannot find symbol
+        new MsLost().setVisible(true);
+            ^
+  symbol:   class MsLost
+  location: class ZeroCross
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:267: error: cannot find symbol
+        new MsTie().setVisible(true);
+            ^
+  symbol:   class MsTie
+  location: class ZeroCross
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:616: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+                                                       ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:623: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(cplayer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 15, -1, -1));
+                                                          ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:627: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(symbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 619, 10, 0));
+                                                        ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:631: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(ul, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 268, -1, 62));
+                                                     ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:635: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(uprog, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 440, 162, 30));
+                                                        ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:644: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 530, 111, -1));
+                                                           ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:650: error: package org.netbeans.lib.awtextra does not exist
+        jPanel3.add(cc, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 150, 40));
+                                                     ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:653: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+                                                       ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:660: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.add(oplayer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 15, 212, -1));
+                                                          ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:664: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.add(symbl1, new org.netbeans.lib.awtextra.AbsoluteConstraints(214, 620, 10, 0));
+                                                         ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:668: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.add(ol, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 242, 232, 121));
+                                                     ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:672: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.add(oprog, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 446, -1, 29));
+                                                        ^
+D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java:678: error: package org.netbeans.lib.awtextra does not exist
+        jPanel2.add(oo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 150, 40));
+                                                     ^
+Note: D:\mypackage\ChitChat\src\ChitChat\ZeroCross.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18 errors
+2023.01.31 18:05:28 INFO  time: code lens generation in 1.55s
+2023.01.31 19:07:08 INFO  shutting down Metals
